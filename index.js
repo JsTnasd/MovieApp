@@ -5,7 +5,7 @@ const myDiv = document.getElementById("text")
 const action = () => {
     key = "616456ea"
     const movie = textMovie.value
-    const url = `http://www.omdbapi.com/?t=${movie}&apikey=${key}`
+    const url = `https://www.omdbapi.com/?t=${movie}&apikey=${key}`
 
     fetch(url).then((resp) => resp.json()).then((data) => {
 
