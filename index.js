@@ -39,7 +39,7 @@ const action = () => {
             <p>${data.Actors}</p>
         </div>`
         } else {
-            myDiv.innerHTML = "This movie don't exist"
+            myDiv.innerHTML = `${data.Error}`
         }
 
     }).catch(() => {
