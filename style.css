@@ -1,0 +1,95 @@
+html {
+    background-color: #da9c1e;
+}
+
+html, body {
+    height: 90%;
+    margin: 0;
+  }
+
+* {
+    font-family: "Rubik", sans-serif;
+    border-radius: 5px;
+}
+
+.contenedor {
+    font-size: 16px;
+    width: 90vw;
+    max-width: 37.5em;
+    padding: 3em 1.8em;
+    background-color: #1e293b;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 0.6em;
+    box-shadow: 1.2em 2em 3em rgba(0, 0, 0, 0.2);
+}
+
+input {
+    color: white;
+    background-color: transparent;
+    font-size: 15px;
+    width: 200px;
+    height: 30px;
+    border: 1px solid #2d374d;
+}
+
+button {
+    background-color: #da9c1e;
+    border: 1px solid #2d374d;
+    font-size: 15px;
+    width: 80px;
+    height: 30px;
+}
+
+p {
+    color: #6a7588;
+}
+
+.info {
+    position: relative;
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+    }
+
+img {
+    width: 100%;
+}
+
+#title {
+    position: relative;
+    text-align: center;
+}
+
+.details {
+    font-size: 15px;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#cast, #plot {
+    position: relative;
+    top: -20px;
+}
+
+h1, span {
+    color: white;
+}
+
+.rating, .genre div {
+    color: #6a7588;
+    font-weight: 500;
+}
+
+.rating {
+    font-size: 15px;
+}
+
+.genre div{
+    font-size: 17px;
+    margin: 10px;
+}
+
+
